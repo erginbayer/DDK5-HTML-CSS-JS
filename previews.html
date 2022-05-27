@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        .header{
+            display: flex;
+        }
+        .lefsidetexts{
+            list-style-type: none;
+            width: 100%;
+            margin-top: 0;
+            color: white;
+            font-size: 15pt;
+            font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            line-height: 1.8;    
+        }
+        .leftside{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            background-color:chocolate;
+            height: 100vh;
+            
+        }
+        .img{
+            margin: 40px;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 0.5rem solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 0.5rem;
+            box-sizing: border-box;
+        }
+        .rightside{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .textColor{
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+<div class="leftside">
+    <div>
+        <img class="img" src="MyImage.jpeg" width="200" height="200"> 
+    </div>
+    <div>
+        <ul class="lefsidetexts">
+            <li>About</li>
+            <li>Experience</li>
+            <li>Education</li>
+            <li>Skills</li>
+            <li>Awards</li>
+        </ul>
+    </div>
+</div>
+<div class="rightside">
+<h1>Mehmet Ergin
+    <span class="textColor">BAYER</span>
+</h1>
+</div>
+</div>
+</body>
+</html>

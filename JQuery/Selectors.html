@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <button>Test</button>
+    <button>Test-2</button>
+    <button>Test-3</button>
+   
+</body>
+<script>
+ 
+   /* $("button").click(function(){
+        alert("all button");
+    })*/    
+    
+    /*$("#btn").click(function(){
+        alert("id");
+    })*/
+    
+    /*$(".btn1").click(function(){
+        alert("class");
+    })*/
+    /*$("div button").click(function(){
+        alert("div içerisinde button");
+
+    })*/
+    $(".div1 button").click(function(){
+        alert("div1 classın içerisinde button");
+
+    })
+
+    $("button").click(function(){
+        $(this).hide();
+    })
+
+</script>
+</html>

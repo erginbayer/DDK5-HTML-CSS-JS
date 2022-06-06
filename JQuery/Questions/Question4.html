@@ -9,9 +9,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div>
+        <input type="text">
+        <h1></h1>
+        <h2></h2>
+        <button id="btn">Click</button>
+    </div>
 </body>
 <script>
     //4) Ekrana bir input, bir h1 ve bir h2 elementi ve bir buton koy. Butona tıkladığında inputtaki sayının karesini h1 e, küpünü h2 ye yazsın.
+
+    $("#btn").click(function(){
+        var kare = $("input").val()*$("input").val();
+        $("h1").html(kare)
+        var kup = $("input").val()*$("input").val()*$("input").val();
+        $("h2").html(kup)
+    })
 </script>
 </html>
